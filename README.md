@@ -7,6 +7,7 @@
 - [Setup](#setup)
 - [WC3 Validator Result](#w3c-validator-result)
 - [The most challenging](#the-most-challenging)
+- [References](#references)
 
 ### Introduction
 
@@ -31,4 +32,27 @@ _Document checking completed. No errors or warnings to show._
 _Your browser has cached your site as one without a favicon. When you add a favicon to your site, it may not show up since your browser has 'saved' your site as one without a favicon. You need to clear the cache in your browser or use a different browser._
 
 Source Link:
-[Link](https://www.seoptimer.com/blog/favicon-not-showing-up/#:~:text=lacks%20closing%20quotes-,Your%20browser%20has%20cached%20your%20site%20as%20one%20without%20a,or%20use%20a%20different%20browser.)
+[URL](https://www.seoptimer.com/blog/favicon-not-showing-up/#:~:text=lacks%20closing%20quotes-,Your%20browser%20has%20cached%20your%20site%20as%20one%20without%20a,or%20use%20a%20different%20browser.)
+
+### References
+
+1. Reference
+   Description: favicon generator
+   Product: favicon.ico
+   Date: 15/07/2023
+   [URL](https://favicon.io/)
+
+2. Reference
+   Description: logo generator
+   Product 1: logo_black.png
+   Product 1: logo_white.png
+   Date: 15/07/2023
+   [URL](https://www.ucraft.com/free-logo-maker)
+
+3. Reference
+   Description: SVG file
+   Product 1: 211904_social_github_icon.svg
+   Product 2: 104501_twitter_bird_icon.svg
+   Product 3: 5305157_connection_linkedin_network_linkedin logo_icon.svg
+   Date: 14/07/2023
+   [URL](https://www.iconfinder.com/)
