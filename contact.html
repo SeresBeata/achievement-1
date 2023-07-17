@@ -32,11 +32,11 @@
     <!-- End: Navbar -->
     <!-- Main Section Start -->
     <main>
-      <h1>Contact</h1>
+      <h1>Contact Me!</h1>
       <div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Got your attention? Have any questions? Let's get this conversation
+          started! Contact me by phone, email or Skype:
         </p>
         <ul>
           <li><a href="tel:+123456789">Tel: +123456789</a></li>
@@ -48,8 +48,73 @@
               >Email: mymail(at)gmail(dot)com</a
             >
           </li>
+          <li><a href="skype:myskype">Skype:myskype</a></li>
         </ul>
-        <a href="skype:myskype">Contact me on Skype!</a>
+      </div>
+      <div>
+        <p>
+          Or use this form to contact me, and I'll get in touch as soon as I
+          can.
+        </p>
+        <!-- Contact Form Start -->
+        <form action="" method="post">
+          <div>
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              id="firstName"
+              name="user_firstName"
+              placeholder="First Name"
+              size="30"
+              required
+              autofocus
+            />
+          </div>
+
+          <div>
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              id="lastName"
+              name="user_lastName"
+              placeholder="Last Name"
+              size="30"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="emailAddress">Email address:</label>
+            <input
+              type="email"
+              id="emailAddress"
+              name="user_emailAddress"
+              placeholder="name@mail.com"
+              required
+            />
+          </div>
+
+          <div>
+            <div id="messageHelpBlock">
+              The maximum length of text message that you can send is 240
+              characters.
+            </div>
+            <div>
+              <label for="yourMessage">Message:</label>
+              <textarea
+                id="yourMessage"
+                name="user_message"
+                placeholder="Your Message ..."
+                rows="4"
+                cols="50"
+                maxlength="240"
+              ></textarea>
+            </div>
+          </div>
+
+          <button type="submit" name="submit-btn">Submit</button>
+        </form>
+        <!-- End: Contact -->
       </div>
     </main>
     <!-- End: Main Section -->
