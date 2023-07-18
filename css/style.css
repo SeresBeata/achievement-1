@@ -64,4 +64,20 @@ a:focus {
   text-decoration: none;
 }
 /* Anchor element Start */
+
+/* Submit Btn Start */
+.contact-form__btn--submit {
+  background-color: var(--brand-color-primary);
+  color: var(--text-color-primary);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-weight: 600;
+}
+.contact-form__btn--submit:hover {
+  background: rgba(198, 35, 104, 0.5);
+  cursor: pointer;
+}
+/* End: Submit Btn */
 /********************** END: GENERAL SETTINGS **********************/
