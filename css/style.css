@@ -1,1 +1,11 @@
+/* Color Palette */
 
+:root {
+  --brand-color-primary: #c62368;
+  --brand-color-secondary: #6600ff;
+  --base-color-primary: #15171c;
+  --base-color-secondary: #232922;
+  --base-color-secondary-light: #2e3744;
+  --text-color-primary: #ffffff;
+  --text-color-secondary: #b3b4b6;
+}
