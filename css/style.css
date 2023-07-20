@@ -12,6 +12,12 @@
 }
 /* End: Color Palette */
 
+/* Universal Selector Start */
+* {
+  box-sizing: border-box;
+}
+/* End: Universal Selector */
+
 /* Body Start */
 body {
   font-family: "Montserrat", sans-serif;
