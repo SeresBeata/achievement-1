@@ -120,6 +120,15 @@ a:focus {
 }
 /* End: Header */
 
+/* Footer Start */
+.page-footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/* End: Footer */
+
 /********************** END: SECTION SPECIFIC SETTINGS **********************/
 
 /********************** HOME PAGE SPECIFIC SETTINGS START **********************/
