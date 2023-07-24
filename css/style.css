@@ -86,12 +86,18 @@ a:focus {
 .contact-form__btn--submit,
 .about-main-section__btn--download {
   background-color: var(--brand-color-primary);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 0, 255, 1) 0%,
+    rgba(198, 35, 104, 1) 100%
+  );
   color: var(--text-color-primary);
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   font-family: inherit;
   font-weight: 600;
+  margin: 40px 0 40px 0;
 
   transition-duration: 0.2s;
   transition-property: opacity;
@@ -108,6 +114,29 @@ a:focus {
   text-decoration: none;
 }
 /* End: Btn */
+
+/* Textarea, Input and Placeholder Start */
+textarea {
+  background-color: var(--brand-color-primary);
+  color: var(--text-color-primary);
+  border-radius: 5px;
+}
+
+textarea::placeholder {
+  color: var(--base-color-primary);
+}
+
+input {
+  background-color: var(--brand-color-primary);
+  color: var(--text-color-primary);
+  border-radius: 5px;
+  border: none;
+}
+
+input::placeholder {
+  color: var(--base-color-primary);
+}
+/* End:Textarea, Input and Placeholder */
 
 /* Header Decoration Start */
 .header-decoration {
@@ -261,17 +290,20 @@ a:focus {
 /********************** END: HOME PAGE SPECIFIC SETTINGS **********************/
 
 /********************** ABOUT PAGE SPECIFIC SETTINGS START **********************/
+.about-main-section {
+  margin-top: 50px;
+}
+
 .about-main-section,
 .about-main-section__text,
 .about-main-section__svg {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin-top: 50px;
 }
 
 .about-main-section p {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 55%;
   text-align: start;
 }
@@ -436,3 +468,41 @@ svg .cloud-front {
 /* End:Grid Layout */
 /* End: Main Section */
 /********************** END: WORK PAGE SPECIFIC SETTINGS **********************/
+
+/********************** CONTACT PAGE SPECIFIC SETTINGS **********************/
+.contact-main-section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-main-section h1 {
+  margin-bottom: 50px;
+}
+
+.contact-main-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.contact-main-section__form {
+  margin-top: 60px;
+}
+
+.contact-main-section label {
+  color: var(--text-color-primary);
+}
+
+#messageHelpBlock {
+  margin-top: 60px;
+}
+
+.contact-main-section__message-label {
+  display: block;
+  margin: 10px 0;
+}
+
+/********************** END: CONTACT PAGE SPECIFIC SETTINGS **********************/

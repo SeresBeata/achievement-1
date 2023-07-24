@@ -87,12 +87,13 @@
         <!-- End: Navbar -->
         <div class="header-decoration"></div>
         <!-- Main Section Start -->
-        <main>
-          <h1>Contact Me!</h1>
+        <main class="contact-main-section">
           <div>
+            <h1>Contact Me!</h1>
+            <p>Got your attention? Have any questions?</p>
             <p>
-              Got your attention? Have any questions? Let's get this
-              conversation started! Contact me by phone, email or Skype:
+              Let's get this conversation started! Contact me by phone, email or
+              Skype:
             </p>
             <ul>
               <li><a href="tel:+123456789">Tel: +123456789</a></li>
@@ -113,7 +114,11 @@
               can.
             </p>
             <!-- Contact Form Start -->
-            <form action="/contact" method="post">
+            <form
+              class="contact-main-section__form"
+              action="/contact"
+              method="post"
+            >
               <div>
                 <label for="firstName">First Name:</label>
                 <input
@@ -146,6 +151,7 @@
                   id="emailAddress"
                   name="user_emailAddress"
                   placeholder="name@mail.com"
+                  size="27"
                   required
                 />
               </div>
@@ -156,7 +162,11 @@
                   characters.
                 </div>
                 <div>
-                  <label for="yourMessage">Message:</label>
+                  <label
+                    class="contact-main-section__message-label"
+                    for="yourMessage"
+                    >Message:</label
+                  >
                   <textarea
                     id="yourMessage"
                     name="user_message"
