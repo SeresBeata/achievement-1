@@ -38,148 +38,161 @@
     <!-- End: Personal CSS Link -->
   </head>
   <body>
-    <!-- Navbar Start -->
-    <header class="page-header">
-      <img
-        class="page-header__item page-header__logo"
-        src="./img/9652564_butterfly_origami_paper_craft_creative_icon.svg"
-        alt="Personal logo of Beáta Molnár, an origami butterfly icon."
-      />
-      <nav class="page-header__item main-navigation" role="navigation">
-        <ul class="navigation-list" role="menubar">
-          <li role="presentation">
-            <a class="navigation-list__item" role="menuitem" href="./index.html"
-              >Home</a
-            >
-          </li>
-          <li role="presentation">
-            <a class="navigation-list__item" role="menuitem" href="./about.html"
-              >About Me</a
-            >
-          </li>
-          <li role="presentation">
-            <a class="navigation-list__item" role="menuitem" href="./work.html"
-              >Work</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              class="navigation-list__item navigation-list__item--active"
-              role="menuitem"
-              href="./contact.html"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- End: Navbar -->
-    <!-- Main Section Start -->
-    <main>
-      <h1>Contact Me!</h1>
-      <div>
-        <p>
-          Got your attention? Have any questions? Let's get this conversation
-          started! Contact me by phone, email or Skype:
-        </p>
-        <ul>
-          <li><a href="tel:+123456789">Tel: +123456789</a></li>
-          <li>
-            <a
-              href="mailto:mymail(at)gmail(dot)com"
-              target="_blank"
-              rel="noreferrer"
-              >Email: mymail(at)gmail(dot)com</a
-            >
-          </li>
-          <li><a href="skype:myskype">Skype:myskype</a></li>
-        </ul>
+    <div class="page-container">
+      <div class="content-wrap">
+        <!-- Navbar Start -->
+        <header class="page-header">
+          <img
+            class="page-header__item page-header__logo"
+            src="./img/9652564_butterfly_origami_paper_craft_creative_icon.svg"
+            alt="Personal logo of Beáta Molnár, an origami butterfly icon."
+          />
+          <nav class="page-header__item main-navigation" role="navigation">
+            <ul class="navigation-list" role="menubar">
+              <li role="presentation">
+                <a
+                  class="navigation-list__item"
+                  role="menuitem"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  class="navigation-list__item"
+                  role="menuitem"
+                  href="./about.html"
+                  >About Me</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  class="navigation-list__item"
+                  role="menuitem"
+                  href="./work.html"
+                  >Work</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  class="navigation-list__item navigation-list__item--active"
+                  role="menuitem"
+                  href="./contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <!-- End: Navbar -->
+        <!-- Main Section Start -->
+        <main>
+          <h1>Contact Me!</h1>
+          <div>
+            <p>
+              Got your attention? Have any questions? Let's get this
+              conversation started! Contact me by phone, email or Skype:
+            </p>
+            <ul>
+              <li><a href="tel:+123456789">Tel: +123456789</a></li>
+              <li>
+                <a
+                  href="mailto:mymail(at)gmail(dot)com"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Email: mymail(at)gmail(dot)com</a
+                >
+              </li>
+              <li><a href="skype:myskype">Skype:myskype</a></li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Or use this form to contact me, and I'll get in touch as soon as I
+              can.
+            </p>
+            <!-- Contact Form Start -->
+            <form action="/contact" method="post">
+              <div>
+                <label for="firstName">First Name:</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="user_firstName"
+                  placeholder="First Name"
+                  size="30"
+                  required
+                  autofocus
+                />
+              </div>
+
+              <div>
+                <label for="lastName">Last Name:</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="user_lastName"
+                  placeholder="Last Name"
+                  size="30"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="emailAddress">Email address:</label>
+                <input
+                  type="email"
+                  id="emailAddress"
+                  name="user_emailAddress"
+                  placeholder="name@mail.com"
+                  required
+                />
+              </div>
+
+              <div>
+                <div id="messageHelpBlock">
+                  The maximum length of text message that you can send is 240
+                  characters.
+                </div>
+                <div>
+                  <label for="yourMessage">Message:</label>
+                  <textarea
+                    id="yourMessage"
+                    name="user_message"
+                    placeholder="Your Message ..."
+                    rows="4"
+                    cols="50"
+                    maxlength="240"
+                  ></textarea>
+                </div>
+              </div>
+
+              <button
+                class="contact-form__btn--submit"
+                type="submit"
+                name="submit-btn"
+              >
+                Submit
+              </button>
+            </form>
+            <!-- End: Contact -->
+          </div>
+        </main>
+        <!-- End: Main Section -->
       </div>
-      <div>
-        <p>
-          Or use this form to contact me, and I'll get in touch as soon as I
-          can.
-        </p>
-        <!-- Contact Form Start -->
-        <form action="/contact" method="post">
-          <div>
-            <label for="firstName">First Name:</label>
-            <input
-              type="text"
-              id="firstName"
-              name="user_firstName"
-              placeholder="First Name"
-              size="30"
-              required
-              autofocus
-            />
-          </div>
-
-          <div>
-            <label for="lastName">Last Name:</label>
-            <input
-              type="text"
-              id="lastName"
-              name="user_lastName"
-              placeholder="Last Name"
-              size="30"
-              required
-            />
-          </div>
-
-          <div>
-            <label for="emailAddress">Email address:</label>
-            <input
-              type="email"
-              id="emailAddress"
-              name="user_emailAddress"
-              placeholder="name@mail.com"
-              required
-            />
-          </div>
-
-          <div>
-            <div id="messageHelpBlock">
-              The maximum length of text message that you can send is 240
-              characters.
-            </div>
-            <div>
-              <label for="yourMessage">Message:</label>
-              <textarea
-                id="yourMessage"
-                name="user_message"
-                placeholder="Your Message ..."
-                rows="4"
-                cols="50"
-                maxlength="240"
-              ></textarea>
-            </div>
-          </div>
-
-          <button
-            class="contact-form__btn--submit"
-            type="submit"
-            name="submit-btn"
-          >
-            Submit
-          </button>
-        </form>
-        <!-- End: Contact -->
-      </div>
-    </main>
-    <!-- End: Main Section -->
-    <!-- Footer Start -->
-    <footer class="page-footer">
-      <p>Find me on</p>
-      <div>
-        <img src="./img/211904_social_github_icon.svg" alt="GitHub logo" />
-        <img src="./img/104501_twitter_bird_icon.svg" alt="Twitter logo" />
-        <img
-          src="./img/5305157_connection_linkedin_network_linkedin_logo_icon.svg"
-          alt="Linkedin logo"
-        />
-      </div>
-    </footer>
-    <!-- End: Footer -->
+      <!-- Footer Start -->
+      <footer class="page-footer">
+        <p>Find me on</p>
+        <div>
+          <img src="./img/211904_social_github_icon.svg" alt="GitHub logo" />
+          <img src="./img/104501_twitter_bird_icon.svg" alt="Twitter logo" />
+          <img
+            src="./img/5305157_connection_linkedin_network_linkedin_logo_icon.svg"
+            alt="Linkedin logo"
+          />
+        </div>
+      </footer>
+      <!-- End: Footer -->
+    </div>
   </body>
 </html>
