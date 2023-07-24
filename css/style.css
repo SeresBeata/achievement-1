@@ -211,6 +211,13 @@ input::placeholder {
 /********************** END: SECTION SPECIFIC SETTINGS **********************/
 
 /********************** HOME PAGE SPECIFIC SETTINGS START **********************/
+.centering {
+  min-height: calc(100vh - 195px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Hero Section Start */
 /* Grid Fallback Start */
 .hero-section {
@@ -231,8 +238,6 @@ input::placeholder {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 80px;
-    margin-bottom: 65px;
     gap: 10px;
   }
 
