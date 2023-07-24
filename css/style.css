@@ -83,7 +83,8 @@ a:focus {
 /* End: Anchor element */
 
 /* Btn Start */
-.contact-form__btn--submit {
+.contact-form__btn--submit,
+.about-main-section__btn--download {
   background-color: var(--brand-color-primary);
   color: var(--text-color-primary);
   border: none;
@@ -95,9 +96,16 @@ a:focus {
   transition-duration: 0.2s;
   transition-property: opacity;
 }
-.contact-form__btn--submit:hover {
+.contact-form__btn--submit:hover,
+.about-main-section__btn--download:hover {
   opacity: 0.7;
   cursor: pointer;
+}
+
+.about-main-section__btn--download {
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
 }
 /* End: Btn */
 
@@ -251,6 +259,10 @@ a:focus {
 /* End:Grid Layout */
 /* End: Hero Section*/
 /********************** END: HOME PAGE SPECIFIC SETTINGS **********************/
+
+/********************** ABOUT PAGE SPECIFIC SETTINGS START **********************/
+
+/********************** END: ABOUT PAGE SPECIFIC SETTINGS **********************/
 
 /********************** WORK PAGE SPECIFIC SETTINGS START **********************/
 /* Main Section Start */
