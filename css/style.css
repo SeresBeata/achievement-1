@@ -104,7 +104,7 @@ a:focus {
 
 .about-main-section__btn--download {
   display: inline-block;
-  margin: 20px 0;
+  margin: 100px 0 100px 0;
   text-decoration: none;
 }
 /* End: Btn */
@@ -261,6 +261,29 @@ a:focus {
 /********************** END: HOME PAGE SPECIFIC SETTINGS **********************/
 
 /********************** ABOUT PAGE SPECIFIC SETTINGS START **********************/
+.about-main-section,
+.about-main-section__text,
+.about-main-section__svg {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-main-section p {
+  margin-top: 30px;
+  width: 55%;
+  text-align: start;
+}
+
+.about-main-section__table {
+  margin-top: 30px;
+}
+
+.about-main-section__table td {
+  padding: 0 6px;
+}
+
 
 /********************** END: ABOUT PAGE SPECIFIC SETTINGS **********************/
 
