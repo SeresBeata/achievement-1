@@ -389,7 +389,7 @@ svg .cloud-front {
 /* Main Section Start */
 .work-main-section__heading1 {
   width: 33%;
-  margin: 0 auto;
+  margin: 80px auto 60px auto;
   text-align: center;
 }
 
@@ -436,13 +436,15 @@ svg .cloud-front {
   }
 
   .work-main-section__grid {
-    width: 100%;
-    padding: 50px 100px 30px 100px;
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     text-align: start;
     background-color: var(--base-color-primary);
+    border-radius: 5px;
   }
 
   .work-main-section__grid-item {
