@@ -24,6 +24,16 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.6;
+  color: var(--text-color-secondary);
+  background: var(--base-color-secondary-light);
+}
+
+.index-body {
+  background: linear-gradient(
+    90deg,
+    rgba(102, 0, 255, 1) 0%,
+    rgba(198, 35, 104, 1) 100%
+  );
 }
 /* End: Body */
 
@@ -33,6 +43,7 @@ h2,
 h3 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
+  color: var(--text-color-primary);
 }
 
 h1 {
@@ -71,7 +82,7 @@ a:focus {
 }
 /* Anchor element Start */
 
-/* Submit Btn Start */
+/* Btn Start */
 .contact-form__btn--submit {
   background-color: var(--brand-color-primary);
   color: var(--text-color-primary);
@@ -80,12 +91,15 @@ a:focus {
   padding: 10px 20px;
   font-family: inherit;
   font-weight: 600;
+
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 .contact-form__btn--submit:hover {
-  background: rgba(198, 35, 104, 0.5);
+  opacity: 0.7;
   cursor: pointer;
 }
-/* End: Submit Btn */
+/* End: Btn */
 /********************** END: GENERAL SETTINGS **********************/
 
 /********************** SECTION SPECIFIC SETTINGS START **********************/
