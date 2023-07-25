@@ -326,7 +326,7 @@ input::placeholder {
 .about-main-section svg {
   background-color: #f7e6f3;
   border-radius: 5px;
-  width: 35rem;
+  width: 50%;
 }
 
 @keyframes color-change {
