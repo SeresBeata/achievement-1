@@ -593,3 +593,29 @@ svg .cloud-front {
   /* End: Contact Page */
 }
 
+@media all and (max-width: 768px) {
+  /* Home Page Start */
+  .hero-section {
+    max-width: 80%;
+  }
+  /* End: Home Page */
+
+  /* About Page Start */
+  .about-main-section svg {
+    width: 70%;
+  }
+  /* End: About Page */
+
+  /* Work Page Start */
+  .work-main-section__grid {
+    grid-template-rows: 1fr 0.75fr 1fr;
+  }
+  /* End: Work Page */
+
+  /* Contact Page Start */
+  .contact-main-section__form textarea {
+    width: 100%;
+  }
+  /* End: Contact Page */
+}
+
