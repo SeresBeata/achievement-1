@@ -514,3 +514,38 @@ svg .cloud-front {
 }
 
 /********************** END: CONTACT PAGE SPECIFIC SETTINGS **********************/
+
+/********************** MEDIA QUERIES START **********************/
+
+@media all and (max-width: 1200px) {
+  /* Home Page Start */
+  .hero-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+  }
+
+  .hero-section div:first-child {
+    grid-column: 1 /2;
+    grid-row: 1 / 2;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+
+  .hero-section div:nth-child(2) {
+    border-top-right-radius: 0px;
+  }
+
+  .hero-section div:last-child {
+    grid-column: 1/2;
+    grid-row: 3 / 4;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-bottom: 100px;
+  }
+  /* End: Home Page */
+}
+
