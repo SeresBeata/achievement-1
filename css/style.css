@@ -219,7 +219,14 @@ a.navigation-list__item:hover:after {
   width: 100%;
 }
 
-a.navigation-list__item:focus {
+a.navigation-list__item:active::before,
+a.navigation-list__item:active::after {
+  opacity: 0;
+  width: 0;
+}
+
+a.navigation-list__item:focus,
+a.navigation-list__item:active {
   color: var(--base-color-secondary-light);
 }
 /* End: Navbar Anchor Animation*/
