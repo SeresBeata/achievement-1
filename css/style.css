@@ -685,3 +685,12 @@ svg .cloud-front {
   /* End: Work Page */
 }
 
+@media all and (max-width: 360px) {
+  /* Home Page Start */
+  .hero-section {
+    max-width: 90%;
+  }
+  /* End: Home Page */
+}
+
+/********************** END: MEDIA QUERIES  **********************/
