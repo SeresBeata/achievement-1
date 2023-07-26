@@ -37,9 +37,9 @@
 
 /* Body Start */
 body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-base);
   line-height: 1.6;
   color: var(--text-color-secondary);
   background: var(--base-color-secondary-light);
@@ -54,22 +54,22 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 500;
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
   color: var(--text-color-primary);
 }
 
 h1 {
-  font-size: 50px;
-  font-weight: 600;
+  font-size: var(--font-size-x-large);
+  font-weight: var(--font-weight-bolder);
 }
 
 h2 {
-  font-size: 40px;
+  font-size: var(--font-size-large);
 }
 
 h3 {
-  font-size: 30px;
+  font-size: var(--font-size-medium);
 }
 /* End: Headings */
 
@@ -105,7 +105,7 @@ a:focus {
   border-radius: 5px;
   padding: 10px 20px;
   font-family: inherit;
-  font-weight: 600;
+  font-weight: var(--font-weight-bolder);
   margin: 40px 0 40px 0;
 
   transition-duration: 0.2s;
@@ -560,7 +560,7 @@ svg .cloud-front {
 @media all and (max-width: 1200px) {
   /* General Settings Start */
   .hero-section h1 {
-    font-size: 70px;
+    font-size: var(--font-size-xxx-large);
   }
   /* End: General Settings */
 
@@ -642,10 +642,10 @@ svg .cloud-front {
 @media all and (max-width: 768px) {
   /* General Settings Start */
   h1 {
-    font-size: 40px;
+    font-size: var(--font-size-large);
   }
   .hero-section h1 {
-    font-size: 70px;
+    font-size: var(--font-size-xxx-large);
   }
   /* End: General Settings */
 
@@ -743,7 +743,7 @@ svg .cloud-front {
 @media all and (max-width: 360px) {
   /* General Settings Start */
   .hero-section h1 {
-    font-size: 60px;
+    font-size: var(--font-size-xx-large);
   }
   /* End: General Settings */
 
