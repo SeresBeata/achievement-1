@@ -46,11 +46,7 @@ body {
 }
 
 .index-body {
-  background: linear-gradient(
-    90deg,
-    rgba(102, 0, 255, 1) 0%,
-    rgba(198, 35, 104, 1) 100%
-  );
+  background: var(--bg-linear-gradient);
 }
 /* End: Body */
 
@@ -103,11 +99,7 @@ a:focus {
 .contact-form__btn--submit,
 .about-main-section__btn--download {
   background-color: var(--brand-color-primary);
-  background: linear-gradient(
-    90deg,
-    rgba(102, 0, 255, 1) 0%,
-    rgba(198, 35, 104, 1) 100%
-  );
+  background: var(--bg-linear-gradient);
   color: var(--text-color-primary);
   border: none;
   border-radius: 5px;
@@ -159,11 +151,7 @@ input::placeholder {
 .header-decoration {
   height: 5px;
   width: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(102, 0, 255, 1) 0%,
-    rgba(198, 35, 104, 1) 100%
-  );
+  background: var(--bg-linear-gradient);
 }
 /* End: Header Decoration */
 /********************** END: GENERAL SETTINGS **********************/
@@ -347,11 +335,7 @@ a.navigation-list__item:active {
 }
 
 .hero-section code {
-  background: linear-gradient(
-    90deg,
-    rgba(198, 35, 104, 1) 0%,
-    rgba(102, 0, 255, 1) 100%
-  );
+  background: var(--bg-linear-gradient);
   border-radius: 5px;
   color: var(--text-color-primary);
 }
@@ -514,7 +498,7 @@ svg .cloud-front {
   }
 
   .work-main-section__grid-item:nth-of-type(3) {
-    background-color: #6600ff;
+    background-color: var(--brand-color-secondary);
     grid-row-start: span 2;
     padding: 0 20px 0 30px;
     border-bottom-right-radius: 5px;
