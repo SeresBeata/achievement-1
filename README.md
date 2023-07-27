@@ -1,4 +1,4 @@
-# Task_2: Create an HTML skeleton
+# Personal Website
 
 ## Table of contents
 
