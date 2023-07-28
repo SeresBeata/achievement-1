@@ -675,12 +675,37 @@ svg .cloud-front {
 
 @media all and (max-width: 768px) {
   /* General Settings Start */
+  /* Heading Start */
   h1 {
     font-size: var(--font-size-large);
   }
   .hero-section h1 {
     font-size: var(--font-size-xxx-large);
   }
+  /* End: Heading */
+
+  /* Toggle Btn and Navbar Links Start */
+  .page-header__item--toggle-btn {
+    display: flex;
+  }
+
+  .page-header__item:last-child {
+    display: none;
+  }
+
+  .page-header__item:last-child.active {
+    display: block;
+  }
+
+  .navigation-list li {
+    display: block;
+    margin: 0;
+  }
+
+  .navigation-list li:first-child {
+    margin-top: 80px;
+  }
+  /* End: Toggle Btn and Navbar Links */
   /* End: General Settings */
 
   /* Home Page Start */
