@@ -14,6 +14,11 @@
     rgba(102, 0, 255, 1) 0%,
     rgba(198, 35, 104, 1) 100%
   );
+  --bg-linear-gradient-reverse: linear-gradient(
+    180deg,
+    rgba(198, 35, 104, 1) 0%,
+    rgba(102, 0, 255, 1) 100%
+  );
 
   --font-family-heading: "Barlow Condensed", sans-serif;
   --font-family-base: "Montserrat", sans-serif;
