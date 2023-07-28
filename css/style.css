@@ -159,6 +159,23 @@ input::placeholder {
   background: var(--bg-linear-gradient);
 }
 /* End: Header Decoration */
+
+/* Custom Scrollbar Start */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--base-color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-color-primary);
+  background: var(--bg-linear-gradient-reverse);
+  border: 3px solid var(--base-color-secondary);
+  border-radius: 5px;
+}
+/* End: Custom Scrollbar */
 /********************** END: GENERAL SETTINGS **********************/
 
 /********************** SECTION SPECIFIC SETTINGS START **********************/
