@@ -32,7 +32,7 @@ The aim of this project was to create a responsive personal website, that demons
 2. Reference  
    Description: SVG file  
    Product 1: 211904_social_github_icon.svg  
-   Product 2: 9069135_hamburger_button_icon.svg
+   Product 2: 9069135_hamburger_button_icon.svg  
    Product 3: 5305157_connection_linkedin_network_linkedin logo_icon.svg  
    Product 4: 9652564_butterfly_origami_paper_craft_creative_icon.svg  
    Date: 20/07/2023  
