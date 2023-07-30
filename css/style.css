@@ -150,6 +150,17 @@ input {
 input::placeholder {
   color: var(--base-color-primary);
 }
+
+.contact-main-section__form #firstName {
+  width: 350px;
+}
+.contact-main-section__form #lastName {
+  width: 350px;
+}
+
+.contact-main-section__form #emailAddress {
+  width: 320px;
+}
 /* End:Textarea, Input and Placeholder */
 
 /* Header Decoration Start */
