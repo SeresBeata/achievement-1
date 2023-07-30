@@ -175,6 +175,17 @@ input::placeholder {
   border: 3px solid var(--base-color-secondary);
   border-radius: 5px;
 }
+
+/* Custom Scrollbar for Mozilla Firefox Webbrowser Start */
+@supports (
+  scrollbar-color: var(--brand-color-primary) var(--base-color-secondary)
+) {
+  * {
+    scrollbar-color: var(--brand-color-primary) var(--base-color-secondary);
+    scrollbar-width: thin;
+  }
+}
+/* End: Custom Scrollbar for Mozilla Firefox Webbrowser */
 /* End: Custom Scrollbar */
 /********************** END: GENERAL SETTINGS **********************/
 
