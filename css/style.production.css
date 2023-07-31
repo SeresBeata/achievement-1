@@ -219,6 +219,17 @@ input::-ms-input-placeholder {
 input::placeholder {
   color: #15171c;
 }
+
+.contact-main-section__form #firstName {
+  width: 350px;
+}
+.contact-main-section__form #lastName {
+  width: 350px;
+}
+
+.contact-main-section__form #emailAddress {
+  width: 320px;
+}
 /* End:Textarea, Input and Placeholder */
 
 /* Header Decoration Start */
@@ -1167,6 +1178,23 @@ svg .cloud-front {
     max-width: 90%;
   }
   /* End: Home Page */
+
+  /* Contact Page Start */
+  .contact-main-section__form textarea {
+    width: 90%;
+  }
+
+  .contact-main-section__form #firstName {
+    width: 300px;
+  }
+  .contact-main-section__form #lastName {
+    width: 300px;
+  }
+
+  .contact-main-section__form #emailAddress {
+    width: 300px;
+  }
+  /* End: Contact Page */
 }
 
 /********************** END: MEDIA QUERIES  **********************/
