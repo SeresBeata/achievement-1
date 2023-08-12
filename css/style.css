@@ -821,6 +821,10 @@ svg .cloud-front {
   /* End: About Page */
 
   /* Contact Page Start */
+  .contact-main-section ul {
+    width: 100%;
+  }
+
   .contact-main-section__form textarea {
     width: 100%;
   }
