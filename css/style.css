@@ -847,6 +847,12 @@ svg .cloud-front {
     width: 100%;
   }
 
+  .contact-main-section__form > div:nth-child(1),
+  .contact-main-section__form > div:nth-child(2),
+  .contact-main-section__form > div:nth-child(3) {
+    width: 100%;
+  }
+
   .contact-main-section__form textarea {
     width: 100%;
   }
