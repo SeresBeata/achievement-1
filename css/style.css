@@ -607,8 +607,32 @@ svg .cloud-front {
 
 .contact-main-section ul {
   list-style-type: none;
-  padding: 0;
-  margin-top: 40px;
+  background-color: var(--base-color-primary);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  width: 53%;
+  text-align: left;
+}
+
+.contact-main-section ul li {
+  padding: 5px;
+}
+
+.contact-main-section ul a {
+  text-decoration: none;
+}
+
+.contact-main-section ul a:hover,
+.contact-main-section ul a:focus {
+  text-decoration: underline;
+}
+
+.contact-main-section span {
+  font-weight: var(--font-weight-bolder);
 }
 
 .contact-main-section__form {
