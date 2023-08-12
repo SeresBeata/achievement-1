@@ -938,6 +938,12 @@ svg .cloud-front {
     border-bottom-left-radius: 5px;
   }
   /* End: Work Page */
+
+  /* Contact Page Start */
+  .contact-main-section__form #emailAddress {
+    width: 350px;
+  }
+  /* End: Contact Page */
 }
 
 @media all and (max-width: 360px) {
