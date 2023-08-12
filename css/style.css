@@ -765,6 +765,11 @@ svg .cloud-front {
   .contact-main-section {
     padding: 0 100px;
   }
+
+  .contact-main-section ul {
+    text-align: center;
+    width: 70%;
+  }
   /* End: Contact Page */
 }
 
