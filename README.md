@@ -13,8 +13,11 @@ The aim of this project was to create a responsive personal website, that demons
 
 ### Technologies
 
+The following technologies were used:
+
 - HTML5
-- CSS3
+- CSS3, such as CSS Grid Layout and CSS Flexbox Layout
+- Sass
 
 ### Setup
 
