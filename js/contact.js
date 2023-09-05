@@ -91,4 +91,9 @@ let formValidation = (() => {
       alert("Success!");
     }
   });
+
+  //to validate the fields once the user starts typing in them
+  firstNameInput.addEventListener("input", validateFirstName);
+  lastNameInput.addEventListener("input", validateLastName);
+  emailInput.addEventListener("input", validateEmail);
 })();
