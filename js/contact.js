@@ -38,4 +38,17 @@ let formValidation = (() => {
     showErrorMessage(firstNameInput, null);
     return true;
   }
+
+  //Create function for validation of the last name
+  function validateLastName() {
+    let value = lastNameInput.value;
+
+    if (!value) {
+      showErrorMessage(lastNameInput, "Last name is a required field.");
+      return false;
+    }
+
+    showErrorMessage(lastNameInput, null);
+    return true;
+  }
 })();
