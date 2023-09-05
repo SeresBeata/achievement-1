@@ -17,7 +17,6 @@ The following technologies were used:
 
 - HTML5
 - CSS3, such as CSS Grid Layout and CSS Flexbox Layout
-- Sass
 
 ### Setup
 
