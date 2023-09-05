@@ -674,6 +674,10 @@ svg .cloud-front {
   margin: 10px 0;
 }
 
+.error-message {
+  color: var(--text-color-secondary);
+  font-size: 0.8em;
+}
 /********************** END: CONTACT PAGE SPECIFIC SETTINGS **********************/
 
 /********************** MEDIA QUERIES START **********************/
