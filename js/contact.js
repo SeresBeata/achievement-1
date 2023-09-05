@@ -25,4 +25,17 @@ let formValidation = (() => {
       container.appendChild(error);
     }
   }
+
+  //Create function for validation of the first name
+  function validateFirstName() {
+    let value = firstNameInput.value;
+
+    if (!value) {
+      showErrorMessage(firstNameInput, "First name is a required field.");
+      return false;
+    }
+
+    showErrorMessage(firstNameInput, null);
+    return true;
+  }
 })();
