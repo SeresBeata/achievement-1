@@ -74,4 +74,13 @@ let formValidation = (() => {
     showErrorMessage(emailInput, null);
     return true;
   }
+
+  //Create function for validation of the form
+  function validateForm() {
+    let isValidFirstName = validateFirstName();
+    let isValidLastName = validateLastName();
+    let isValidEmail = validateEmail();
+
+    return isValidFirstName && isValidLastName && isValidEmail;
+  }
 })();
