@@ -83,4 +83,12 @@ let formValidation = (() => {
 
     return isValidFirstName && isValidLastName && isValidEmail;
   }
+
+  //Add eventListener to the form
+  form.addEventListener("submit", (e) => {
+    e.preventDefault(); // Do not submit to the server
+    if (validateForm()) {
+      alert("Success!");
+    }
+  });
 })();
