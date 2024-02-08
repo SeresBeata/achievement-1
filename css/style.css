@@ -621,7 +621,7 @@ svg .cloud-front {
   margin: 0 auto;
   width: 53%;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .contact-main-section ul li {
@@ -686,9 +686,32 @@ svg .cloud-front {
 } */
 
 /*SVG file: Start*/
-.contact-main-section img {
-  height: 400px;
+.contact-main-section svg {
+  height: 300px;
 }
+
+/* SVG Animation Start */
+
+@keyframes color-animation {
+  0% {
+    fill: #ba85cd;
+  }
+  50% {
+    fill: #c0326f;
+  }
+  100% {
+    fill: #6600ff;
+  }
+}
+
+svg * {
+  transform-box: fill-box;
+}
+
+svg .contact-main-section__animation {
+  animation: 4s color-animation infinite alternate linear;
+}
+/* End: SVG Animation */
 /**End: SVG file/
 
 /********************** END: CONTACT PAGE SPECIFIC SETTINGS **********************/
@@ -968,8 +991,8 @@ svg .cloud-front {
     width: 300px;
   }
 
-  .contact-main-section img {
-    height: 300px;
+  .contact-main-section svg {
+    height: 280px;
   }
 
   /* End: Contact Page */
