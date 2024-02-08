@@ -620,7 +620,8 @@ svg .cloud-front {
   padding-right: 20px;
   margin: 0 auto;
   width: 53%;
-  text-align: left;
+  text-align: center;
+  margin-top: 70px;
 }
 
 .contact-main-section ul li {
@@ -640,7 +641,7 @@ svg .cloud-front {
   font-weight: var(--font-weight-bolder);
 }
 
-.contact-main-section__form {
+/* .contact-main-section__form {
   margin-top: 60px;
 }
 
@@ -682,7 +683,37 @@ svg .cloud-front {
 .error-message {
   color: var(--text-color-secondary);
   font-size: 15px;
+} */
+
+/*SVG file: Start*/
+.contact-main-section svg {
+  height: 300px;
 }
+
+/* SVG Animation Start */
+
+@keyframes color-animation {
+  0% {
+    fill: #ba85cd;
+  }
+  50% {
+    fill: #c0326f;
+  }
+  100% {
+    fill: #6600ff;
+  }
+}
+
+svg * {
+  transform-box: fill-box;
+}
+
+svg .contact-main-section__animation {
+  animation: 4s color-animation infinite alternate linear;
+}
+/* End: SVG Animation */
+/**End: SVG file/
+
 /********************** END: CONTACT PAGE SPECIFIC SETTINGS **********************/
 
 /********************** MEDIA QUERIES START **********************/
@@ -857,7 +888,7 @@ svg .cloud-front {
     width: 100%;
   }
 
-  .contact-main-section__form > div:nth-child(1),
+  /* .contact-main-section__form > div:nth-child(1),
   .contact-main-section__form > div:nth-child(2),
   .contact-main-section__form > div:nth-child(3) {
     width: 100%;
@@ -865,7 +896,7 @@ svg .cloud-front {
 
   .contact-main-section__form textarea {
     width: 100%;
-  }
+  } */
   /* End: Contact Page */
 }
 
@@ -952,9 +983,18 @@ svg .cloud-front {
   /* End: Work Page */
 
   /* Contact Page Start */
-  .contact-main-section__form #emailAddress {
+  /* .contact-main-section__form #emailAddress {
     width: 350px;
+  } */
+
+  .contact-main-section div {
+    width: 300px;
   }
+
+  .contact-main-section svg {
+    height: 280px;
+  }
+
   /* End: Contact Page */
 }
 
@@ -972,7 +1012,7 @@ svg .cloud-front {
   /* End: Home Page */
 
   /* Contact Page Start */
-  .contact-main-section__form textarea {
+  /* .contact-main-section__form textarea {
     width: 90%;
   }
 
@@ -985,7 +1025,7 @@ svg .cloud-front {
 
   .contact-main-section__form #emailAddress {
     width: 300px;
-  }
+  } */
   /* End: Contact Page */
 }
 
