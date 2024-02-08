@@ -620,7 +620,8 @@ svg .cloud-front {
   padding-right: 20px;
   margin: 0 auto;
   width: 53%;
-  text-align: left;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .contact-main-section ul li {
@@ -683,7 +684,13 @@ svg .cloud-front {
   color: var(--text-color-secondary);
   font-size: 15px;
 } */
+
+/*SVG file: Start*/
+.contact-main-section img {
+  height: 400px;
 }
+/**End: SVG file/
+
 /********************** END: CONTACT PAGE SPECIFIC SETTINGS **********************/
 
 /********************** MEDIA QUERIES START **********************/
@@ -956,7 +963,15 @@ svg .cloud-front {
   /* .contact-main-section__form #emailAddress {
     width: 350px;
   } */
+
+  .contact-main-section div {
+    width: 300px;
   }
+
+  .contact-main-section img {
+    height: 300px;
+  }
+
   /* End: Contact Page */
 }
 
