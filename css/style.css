@@ -640,7 +640,7 @@ svg .cloud-front {
   font-weight: var(--font-weight-bolder);
 }
 
-.contact-main-section__form {
+/* .contact-main-section__form {
   margin-top: 60px;
 }
 
@@ -682,6 +682,7 @@ svg .cloud-front {
 .error-message {
   color: var(--text-color-secondary);
   font-size: 15px;
+} */
 }
 /********************** END: CONTACT PAGE SPECIFIC SETTINGS **********************/
 
@@ -857,7 +858,7 @@ svg .cloud-front {
     width: 100%;
   }
 
-  .contact-main-section__form > div:nth-child(1),
+  /* .contact-main-section__form > div:nth-child(1),
   .contact-main-section__form > div:nth-child(2),
   .contact-main-section__form > div:nth-child(3) {
     width: 100%;
@@ -865,7 +866,7 @@ svg .cloud-front {
 
   .contact-main-section__form textarea {
     width: 100%;
-  }
+  } */
   /* End: Contact Page */
 }
 
@@ -952,8 +953,9 @@ svg .cloud-front {
   /* End: Work Page */
 
   /* Contact Page Start */
-  .contact-main-section__form #emailAddress {
+  /* .contact-main-section__form #emailAddress {
     width: 350px;
+  } */
   }
   /* End: Contact Page */
 }
@@ -972,7 +974,7 @@ svg .cloud-front {
   /* End: Home Page */
 
   /* Contact Page Start */
-  .contact-main-section__form textarea {
+  /* .contact-main-section__form textarea {
     width: 90%;
   }
 
@@ -985,7 +987,7 @@ svg .cloud-front {
 
   .contact-main-section__form #emailAddress {
     width: 300px;
-  }
+  } */
   /* End: Contact Page */
 }
 
